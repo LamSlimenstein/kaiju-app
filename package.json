@@ -4,16 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "kaiju-test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LamSlimenstein/kaiju-app.git"
   },
+  "keywords": [
+    "kaiju"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LamSlimenstein/kaiju-app/issues"
   },
-  "homepage": "https://github.com/LamSlimenstein/kaiju-app#readme"
+  "homepage": ".",
+  "devDependencies": {
+    "npm-start-command": "^1.0.1"
+  }
 }
